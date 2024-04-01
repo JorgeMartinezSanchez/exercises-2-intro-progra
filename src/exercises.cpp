@@ -5,14 +5,15 @@
 using namespace std;
 
 void exercise_1(const string& text) {
-  int indiceInicial = 0;
+  int indice = 0;
+	
 	for (int i = 0; i < text.length(); i++){
-		if (text[i] == ' ' || i == text.length() - 1){
-			int indiceFinal = (i == text.length() - 1) ? i : i - 1;
-			cout<<indiceFinal<<" ";
-			indiceInicial = i + 1;
+		if (text[i] == ' '){
+			cout<<i;
 		}
+
 	}
+	cout<<" "<<text.length()<<endl;
 }
 
 void exercise_2(string s1) {
