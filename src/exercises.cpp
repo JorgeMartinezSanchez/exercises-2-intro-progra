@@ -7,9 +7,10 @@ using namespace std;
 void exercise_1(string s1) {
 	for (int i = 0; i < s1.length(); i++){
 		if (s1[i] == ' '){
-			cout<<i<<" ";
+			cout<<i;
 		}
 	}
+  	cout<<" "<<text.length()<<endl;
 }
 
 void exercise_2(string s1) {
@@ -82,4 +83,12 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
+}
+
+int main (){
+  string linetext;
+	getline(cin, linetext);
+	exercise_1(linetext);
+
+  return 0;
 }
