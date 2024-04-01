@@ -12,6 +12,7 @@ void exercise_1(const string& text) {
 			cout<<i;
 		}
 
+
 	}
 	cout<<" "<<text.length()<<endl;
 }
