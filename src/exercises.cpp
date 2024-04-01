@@ -10,7 +10,7 @@ void exercise_1(string s1) {
 			cout<<i;
 		}
 	}
-  	cout<<" "<<text.length()<<endl;
+  	cout<<" "<<s1.length()<<endl;
 }
 
 void exercise_2(string s1) {
@@ -83,12 +83,4 @@ void exercise_17(int n) {
 
 void exercise_18_19(int debut, int fin) {
   // TODO: YOUR CODE HERE
-}
-
-int main (){
-  string linetext;
-	getline(cin, linetext);
-	exercise_1(linetext);
-
-  return 0;
 }
