@@ -4,14 +4,14 @@
 
 using namespace std;
 
-void exercise_1(string text) {
+void exercise_1(string s1) {
 	
-	for (int i = 0; i < text.length(); i++){
-		if (text[i] == ' '){
+	for (int i = 0; i < s1.length(); i++){
+		if (s1[i] == ' '){
 			cout<<i;
 		}
 	}
-	cout<<" "<<text.length()<<endl;
+	cout<<" "<<s1.length()<<endl;
 }
 
 void exercise_2(string s1) {
