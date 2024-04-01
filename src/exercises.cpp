@@ -7,10 +7,9 @@ using namespace std;
 void exercise_1(string s1) {
 	for (int i = 0; i < s1.length(); i++){
 		if (s1[i] == ' '){
-			cout<<i;
+			cout<<i<<" ";
 		}
 	}
-	cout<<" "<<s1.length()<<endl;
 }
 
 void exercise_2(string s1) {
