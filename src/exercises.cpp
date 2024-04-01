@@ -6,6 +6,16 @@ using namespace std;
 
 void exercise_1(string s1) {
   // TODO: YOUR CODE HERE
+    int indice = 0;
+	
+	for (int i = 0; i < text.length(); i++){
+		if (text[i] == ' '){
+			cout<<i;
+		}
+
+
+	}
+	cout<<" "<<text.length()<<endl;
 }
 
 void exercise_2(string s1) {
