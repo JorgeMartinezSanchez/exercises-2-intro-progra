@@ -10,11 +10,24 @@ void exercise_1(string s1) {
 			cout<<i<<endl ;
 		}
 	}
-	cout <<s1.length() << endl;
+	cout <<s1.length()<< endl;
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+  string word;
+    for (int i = 0; i < s1.length(); ++i) {
+        if (s1[i] != ' ') {
+            word += s1[i];
+        } else {
+            if (!word.empty()) {
+                cout << "[" << word << "]"<<endl;
+                word = "";
+            }
+        }
+    }
+    if (!word.empty()) {
+        cout << "[" << word << "]";
+    }
 }
 
 void exercise_3(string s1) {
