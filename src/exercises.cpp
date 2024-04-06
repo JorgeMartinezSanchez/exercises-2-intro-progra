@@ -26,7 +26,7 @@ void exercise_2(string s1) {
         }
     }
     if (!word.empty()) {
-        cout << "[" << word << "]";
+        cout << "[" << word << "]"<<endl;
     }
 }
 
