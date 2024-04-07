@@ -31,7 +31,23 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+  int visits = 0;
+	
+	getline(cin, s1);
+	int pos = 0;
+	int cake;
+	
+	while (pos < s1.size() && s1[pos]=='1'){
+		cout<<"Om-nom-nom :P"<<endl;
+		visits++;
+		pos += 2;
+		if(visits>9){
+			break;
+		}
+	}
+	if (pos < s1.size() && s1[pos]== '0'){
+		cout<<"No cake :("<<endl;
+	}
 }
 
 void exercise_4(int n) {
