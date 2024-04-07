@@ -55,10 +55,10 @@ void exercise_4(int n) {
     unsigned long long factorial = 1;
 
     if (n < 0) {
-        cout << "El numero es negativo. Intentelo de nuevo" << endl;
+        cout << "El numero es negativo. Intentelo de nuevo " << endl;
         cin >> n;
     } else if (n > 14) {
-        cout << "El numero es muy grande. Intentelo de nuevo" << endl;
+        cout << "El numero es muy grande. Intentelo de nuevo " << endl;
         cin >> n;
     }
     for (int i = 1; i <= n; ++i) {
