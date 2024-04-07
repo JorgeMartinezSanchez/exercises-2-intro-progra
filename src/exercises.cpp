@@ -68,7 +68,20 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+  int current_day = 1;
+	
+	for (int i=0; i<n; i++){
+		cout<<"";
+	}
+	while(current_day<=k){
+		cout<<(current_day < 10 ? " " : "")<<current_day;
+		if((n+current_day-1)%7==0 || current_day==k){
+			cout<<endl;
+		} else {
+			cout<<" ";
+		}
+		current_day++;
+	}
 }
 
 int exercise_6(int n) {
