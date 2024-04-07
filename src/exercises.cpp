@@ -56,10 +56,10 @@ void exercise_4(int n) {
 
     if (n < 0) {
         cout << "El numero es negativo. Intentelo de nuevo " << endl;
-        cin >> n;
+        cin>>n;
     } else if (n > 14) {
         cout << "El numero es muy grande. Intentelo de nuevo " << endl;
-        cin >> n;
+        cin>>n;
     }
     for (int i = 1; i <= n; ++i) {
         factorial *= i;
