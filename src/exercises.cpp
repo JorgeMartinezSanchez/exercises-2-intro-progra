@@ -55,7 +55,7 @@ void exercise_4(int n) {
 	unsigned long long factorial = 1;
 	
 	if (n<0){
-		cout<<"El numero no puede ser negativo. Intente de nuevo"<<endl;
+		cout<<"El numero no puede ser negativo. Intentelo de nuevo"<<endl;
 		cin>>n;
 	}
 	else if (n>14){
