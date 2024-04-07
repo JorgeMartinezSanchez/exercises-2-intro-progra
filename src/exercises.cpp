@@ -51,7 +51,21 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
+  cin>>n;
+	unsigned long long factorial = 1;
+	
+	if (n<0){
+		cout<<"El numero no puede ser negativo. Intente de nuevo"<<endl;
+		cin>>n;
+	}
+	else if (n>14){
+		cout<<"El numero es muy grande. Intentelo de nuevo"<<endl;
+		cin>>n;
+	}
+	for(int i=1; i<=n; ++i){
+		factorial *= i;
+	}
+	cout<<factorial<<endl;
 }
 
 void exercise_5(int n, int k) {
