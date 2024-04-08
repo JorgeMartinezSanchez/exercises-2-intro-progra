@@ -99,7 +99,6 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   double suma = 0.0;
-	double termino = 1.0;
 	cin>>n;
 	for (int i=1; i<=n; i++){
 		suma += pow(-1, i+1)/i;
