@@ -107,7 +107,17 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+	getline(cin, s);
+	
+	s.erase(remove(s.begin(), s.end(), ' '), s.end()); 
+	
+	string word_rev = s;
+	reverse(word_rev.begin(), word_rev.end());
+	if (s == word_rev){
+		cout<<"YES";
+	} else {
+		cout<<"NO";
+	}
 }
 
 void exercise_9(string s) {
