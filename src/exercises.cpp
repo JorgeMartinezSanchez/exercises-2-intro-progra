@@ -122,7 +122,23 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+	getline(cin, s);
+	
+	int first_ap = s.find('f');
+	
+	if (first_ap == string::npos){
+		cout<<-2<<endl;
+	}
+	else {
+		size_t second_ap = s.find('f', first_ap + 1);
+		
+		if(second_ap == string::npos){
+			cout<<-1<<endl;
+		}
+		else {
+			cout<<second_ap<<endl;
+		}
+	}
 }
 
 int exercise_10(int a, int b) {
