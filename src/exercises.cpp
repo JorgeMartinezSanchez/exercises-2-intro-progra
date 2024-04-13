@@ -170,8 +170,14 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
-  return 0;
+	int res = 0;
+	cin>>n>>k;
+	for (int i=1; i<=n; i++){
+		res += pow(i, k);
+		if (i==n){
+			cout<<res;
+		}
+	}
 }
 
 string exercise_14(int n) {
