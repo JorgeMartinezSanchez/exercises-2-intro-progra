@@ -170,14 +170,11 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-	int res = 0;
-	cin>>n>>k;
-	for (int i=1; i<=n; i++){
-		res += pow(i, k);
-		if (i==n){
-			cout<<res;
-		}
-	}
+	long suma = 0;
+    for (int i = 1; i <= n; ++i) {
+        suma += pow(i, k);
+    }
+    return suma;
 }
 
 string exercise_14(int n) {
