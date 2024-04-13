@@ -153,9 +153,10 @@ int exercise_10(int a, int b) {
 void exercise_11() {
 	double Un = 1.0;
 	cout<<"U0 = "<<Un<<endl;
-	for (int n=1; n<=10; ++n){
+	cout<<"U1 = "<<Un<<endl;
+	for (int n=1; n<=9; ++n){ 
 		Un = Un / (n + 1);
-		cout<<"U"<<n<<" = "<<Un<<endl;
+		cout<<"U"<<n+1<<" = "<<Un<<endl;
 	}
 }
 
