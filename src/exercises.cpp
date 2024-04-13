@@ -192,7 +192,6 @@ string exercise_14(int n) {
 void exercise_15(int decimal) {
 	if (dec==0){
 		cout<<"0";
-		return;
 	}
 	string binario = "";
 	
