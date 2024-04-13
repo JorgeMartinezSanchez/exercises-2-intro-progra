@@ -161,7 +161,12 @@ void exercise_11() {
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+	double Un = 1.0;
+	cout<<"U1 = "<<Un<<" V1 = 1"<<endl;
+	for (int n=1; n<=9; ++n){ 
+		Un = Un / (n + 1);
+		cout<<"U"<<n+1<<" = "<<Un<<" V"<<n+1<<" = 1"<<endl;
+	}
 }
 
 long exercise_13(int n, int k) {
