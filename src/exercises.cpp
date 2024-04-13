@@ -189,10 +189,10 @@ string exercise_14(int n) {
 		n /= 10;
 	}
 	if (og==rev){
-		return "Es palindromo";
+		return "Es palindrome";
 	}
 	else{
-		return "No es palindromo";
+		return "No es palindrome";
 	}
 }
 
