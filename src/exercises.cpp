@@ -181,8 +181,19 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+	int og = n;
+	int rev = 0;
+	
+	while (n > 0){
+		rev = rev * 10 + n % 10;
+		n /= 10;
+	}
+	if (og==rev){
+		return "Es palindromo";
+	}
+	else{
+		return "No es palindromo";
+	}
 }
 
 void exercise_15(int decimal) {
