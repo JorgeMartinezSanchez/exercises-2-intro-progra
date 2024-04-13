@@ -86,16 +86,12 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  int suma = 0;
-	
-	if(n<0){
-		n = -n;
-	}
-	while (n != 0){
-		suma += n%10;
-		n/=10;
-	}
-  return suma;
+    int suma = 0;
+    while (n != 0){
+        suma += n % 10;
+        n /= 10;
+    }
+    return suma;
 }
 
 void exercise_7(int n) {
@@ -170,11 +166,6 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-	long suma = 0;
-    for (int i = 1; i <= n; ++i) {
-        suma += pow(i, k);
-    }
-    return suma;
 }
 
 string exercise_14(int n) {
