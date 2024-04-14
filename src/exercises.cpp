@@ -209,12 +209,12 @@ void exercise_15(int decimal) {
 void exercise_16(int divident, int divider) {
 	int quotient = 0;
     
-    while (dividend>=divider) {
-        dividend -= divider;
+    while (divident>=divider) {
+        divident -= divider;
         quotient++;
     }
     
-    cout<<quotient<<" "<<dividend<<endl;
+    cout<<quotient<<" "<<divident<<endl;
 }
 
 void exercise_17(int n) {
