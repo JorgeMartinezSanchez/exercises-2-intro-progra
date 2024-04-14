@@ -207,7 +207,14 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+	int quotient = 0;
+    
+    while (dividend>=divider) {
+        dividend -= divider;
+        quotient++;
+    }
+    
+    cout<<quotient<<" "<<dividend<<endl;
 }
 
 void exercise_17(int n) {
