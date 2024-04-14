@@ -203,7 +203,7 @@ void exercise_15(int decimal) {
 		binario = carac_re + binario;
 		decimal /= 2;
 	}
-	cout<<binario;
+	cout<<binario<<endl;
 }
 
 void exercise_16(int divident, int divider) {
