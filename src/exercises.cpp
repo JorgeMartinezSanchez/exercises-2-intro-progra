@@ -190,7 +190,19 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  //TODO: YOUR CODE HERE
+	if (decimal==0){
+		cout<<"0";
+		return;
+	}
+	string binario = "";
+	
+	while(decimal>0){
+		int residuo = decimal % 2;
+		char carac_re = residuo + '0';
+		binario = carac_re + binario;
+		decimal /= 2;
+	}
+	cout<<binario;
 }
 
 void exercise_16(int divident, int divider) {
