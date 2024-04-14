@@ -48,6 +48,7 @@ void exercise_3(string s1) {
 	}
 	if (pos < s1.size() && s1[pos]== '0'){
 		cout<<"No cake :("<<endl;
+		return;
 	}
 }
 
