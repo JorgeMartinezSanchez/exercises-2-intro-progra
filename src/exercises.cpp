@@ -213,7 +213,6 @@ void exercise_16(int divident, int divider) {
         divident -= divider;
         quotient++;
     }
-    
     cout<<quotient<<" "<<divident<<endl;
 }
 
